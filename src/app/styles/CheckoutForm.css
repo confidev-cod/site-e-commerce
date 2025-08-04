@@ -1,0 +1,84 @@
+.checkout-container {
+  max-width: 600px;
+  margin: 40px auto 100px auto; /* centré, avec marge bas pour éviter le footer */
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+}
+
+.checkout-form .form-group {
+  margin-bottom: 20px;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #444;
+}
+
+.checkout-form input,
+.checkout-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fafafa;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.checkout-form input:focus,
+.checkout-form textarea:focus {
+  outline: none;
+  border-color: crimson;
+  box-shadow: 0 0 5px rgba(220, 20, 60, 0.4);
+}
+
+.checkout-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.checkout-form .btn-primary {
+  width: 100%;
+  padding: 14px;
+  background: crimson;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.checkout-form .btn-primary:hover {
+  background: #a3002a;
+  transform: translateY(-2px);
+}
+
+.checkout-form .btn-primary:active {
+  transform: translateY(0);
+}
+
+/* Responsive pour mobile */
+@media screen and (max-width: 640px) {
+  .checkout-container {
+    margin: 20px;
+    padding: 20px;
+  }
+  .checkout-container h2 {
+    font-size: 20px;
+  }
+}
