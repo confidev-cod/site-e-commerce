@@ -317,5 +317,119 @@ const boissons = [
     image: "sprite_zero.png"
   }
 ];
+const vaisselles = [
+  {
+    ref: "verre_0",
+    category: 5,
+    name: "verre GM",
+    price: 850,
+    unit: "pièce",
+    image: "verre0.png"
+  },
+  {
+    ref: "verre_1",
+    category: 5,
+    name: "verre long",
+    price: 900,
+    unit: "pièce",
+    image: "verre1.png"
+  },
+  {
+    ref: "verre_2",
+    category: 5,
+    name: "verre lela",
+    price: 900,
+    unit: "pièce",
+    image: "verre2.png"
+  },
+  {
+    ref: "verre_3",
+    category: 5,
+    name: "verre Gaia",
+    price: 900,
+    unit: "pièce",
+    image: "verre3.png"
+  },
+  {
+    ref: "bocal1",
+    category: 5,
+    name: "bocal grand format",
+    price: 800,
+    unit: "pièce",
+    image: "bocal1.png"
+  },
+  {
+    ref: "bocal2",
+    category: 5,
+    name: "bocal petit format",
+    price: 600,
+    unit: "pièce",
+    image: "bocal2.png"
+  },
+ {
+    ref: "bocal0",
+    category: 5,
+    name: "bocal grand format 2 ",
+    price: 950,
+    unit: "pièce",
+    image: "bocal0.png"
+  },
+  {
+    ref: "bonbonnière",
+    category: 5,
+    name: "Bonbonnière",
+    price: 850,
+    unit: "pièce",
+    image: "bonbonnière.png"
+  },
+  {
+    ref: "cafétière",
+    category: 5,
+    name: "cafétière noir",
+    price: 1600,
+    unit: "pièce",
+    image: "cafétière.png"
+  },
+  {
+    ref: "horloge",
+    category: 5,
+    name: "horloge",
+    price: 800,
+    unit: "pièce",
+    image: "horloge.png"
+  },
+  {
+    ref: "panier r",
+    category: 5,
+    name: "panier rectangle",
+    price: 800,
+    unit: "pièce",
+    image: "panier rectangle.png"
+  },
+  {
+    ref: "panier ro",
+    category: 5,
+    name: "panier rond",
+    price: 800,
+    unit: "pièce",
+    image: "panier rond.png"
+  },
+  {
+    ref: "porte a manger",
+    category: 5,
+    name: "porte a manger",
+    price: 1600,
+    unit: "pièce",
+    image: "porte a manger.png"
+  },
+  {
+    ref: "gourde",
+    category: 5,
+    name: "la gourde",
+    price: 600,
+    unit: "pièce",
+    image: "une gourde.png"
+  },
+];
 
-export const list = [fruits, legumes, fresh, epicerie, boissons]
+export const list = [fruits, legumes, fresh, epicerie, boissons,vaisselles ]
