@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scripts disponibles
 
-## Available Scripts
+Dans le répertoire du projet, vous pouvez exécuter :
+yarn start
 
-In the project directory, you can run:
+Lance l'application en mode développement.
+Ouvrez http://localhost:3000 pour la voir dans le navigateur.
 
-### `yarn start`
+La page se rechargera si vous effectuez des modifications.
+Vous verrez également toutes les erreurs de lint dans la console.
+yarn test
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Lance le testeur en mode interactif avec surveillance des fichiers.
+Voir la section sur l’exécution des tests pour plus d’informations.
+yarn build
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Construit l’application pour la production dans le dossier build.
+Il regroupe correctement React en mode production et optimise le build pour de meilleures performances.
 
-### `yarn test`
+Le build est minifié et les noms de fichiers incluent des hashes.
+Votre application est prête à être déployée !
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Voir la section sur le déploiement pour plus d’informations.
+yarn eject
 
-### `yarn build`
+⚠️ Attention : ceci est une opération irréversible. Une fois que vous avez éjecté, vous ne pouvez pas revenir en arrière !
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Si vous n’êtes pas satisfait de l’outil de build et des choix de configuration, vous pouvez éjecter à tout moment.
+Cette commande supprimera la dépendance unique de build de votre projet.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+À la place, elle copiera tous les fichiers de configuration et les dépendances transitives (Webpack, Babel, ESLint, etc.) directement dans votre projet pour que vous en ayez le contrôle total.
+Toutes les commandes, sauf eject, continueront de fonctionner, mais elles pointeront désormais vers les scripts copiés, que vous pourrez modifier.
+À ce stade, vous serez livré à vous-même.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Vous n’avez jamais besoin d’utiliser eject.
+    Le jeu de fonctionnalités fourni est suffisant pour les déploiements de petite et moyenne taille, et vous ne devriez pas vous sentir obligé d’utiliser cette fonctionnalité.
+    Cependant, nous comprenons que cet outil ne serait pas utile si vous ne pouviez pas le personnaliser lorsque vous êtes prêt.
 
-### `yarn eject`
+En savoir plus
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Vous pouvez en apprendre davantage dans la documentation de Create React App.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pour apprendre React, consultez la documentation officielle de React.
+Autres sections (liens déplacés) :
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    Découpage du code (Code Splitting) :
+    https://facebook.github.io/create-react-app/docs/code-splitting
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    Analyse de la taille du bundle :
+    https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-## Learn More
+    Créer une Progressive Web App (PWA) :
+    https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Configuration avancée :
+    https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Déploiement :
+    https://facebook.github.io/create-react-app/docs/deployment
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    Échec de la minification lors du build :
+    https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
